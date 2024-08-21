@@ -27,10 +27,25 @@
   .carousel-inner img {
     width: 50% !important;
   }
+  .equal-width {
+    width: 33%;
+  }
+  table {
+    width: 50% !important;
+  }
+  .footer-kontakt-cesta_pitanja {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
 }
 
 @media (max-width: 768px) {
   .carousel-inner img {
+    width: 100% !important;
+  }
+
+  table {
     width: 100% !important;
   }
 }
